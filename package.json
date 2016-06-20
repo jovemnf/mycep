@@ -1,0 +1,31 @@
+{
+  "name": "mycep",
+  "version": "0.0.2",
+  "description": "Busca o endereço de um CEP",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovemnf/mycep.git"
+  },
+  "keywords": [
+    "cep",
+    "node"
+  ],
+  "author": "wallace silva <wsilva@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jovemnf/mycep/issues"
+  },
+  "homepage": "https://github.com/jovemnf/mycep#readme",
+  "dependencies": {
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
