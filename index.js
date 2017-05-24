@@ -1,1 +1,1 @@
-const search = require('./lib/search');module.exports =  {    byJson : search.byJson,    byXml : search.byXml};
+const search = require('./lib/search');module.exports =  {    json : search.byJson,    xml : search.byXml};
